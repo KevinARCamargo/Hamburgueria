@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+/*Configurações Globais*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html,body{
+    height: 100%;
+    background-color: #171717;
+}
+
+p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    display: inline;
+}
+h1{
+    font-family: 'DM Sans', sans-serif;
+    color: #f9b025;
+    
+}
+
+footer{
+    color: white;
+    height: 16px;
+    width: 99%;
+    font-size: 14px;
+    font-family: 'DM Sans', sans-serif;
+    font-style: italic;
+    margin-top: 1%;
+    padding-left: 1%;
+    padding-bottom: 1%;
+}
+/*Configurações da Logo*/
+.alinhamento{
+    text-align: center;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+/*Configurações dos Menus*/
+nav{
+    text-align: center;
+    margin-left: 3%;
+    font-family: 'DM Sans', sans-serif;
+    margin-bottom: 30px;
+}
+
+.icons{
+    padding-right: 5px;
+    height: 17px;
+    width: 17px;
+}
+
+a.menu{
+    padding: 10px;
+    text-decoration: none;
+    color: #f9b025;
+    font-size: 22px;
+    margin-right: 5%;
+    
+}
+
+a.menu:hover{
+    text-decoration: underline;
+    color: #f9b025;
+}
+
+/*Configurações Especícas da Home*/
+main.home{
+    text-align: center;
+}
+
+.imgHome{
+    width: 65%;
+    height: auto;
+}
+
+footer.home{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+/*Configurações Específicas do Cardápio*/
+
+.caixas{
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.tituloCarda{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: 1%;
+}
+
+.Cardápio{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: #f2e5d4;
+    text-align: center;
+}
+.imagens{
+    margin-top: 20px;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.prod{
+    font-family: 'DM Sans', sans-serif;
+    color: black;
+    font-size: 22px;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 20px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.493);
+}
+
+/*Configurações Específicas dos Pedidos*/
+.tituloPed{
+    margin-left: 25%;
+}
+
+.campTxt{
+    margin-left: 25%;
+    width: 50%;
+    height: 30px;
+    border-radius: 10px; 
+    font-family: 'DM Sans', sans-serif;
+    padding: 5px;
+}
+
+.Hamburguer{
+    background-color: white;
+    width: 50%;
+    border-radius: 10px;
+    padding: 5px;
+    font-family: 'DM Sans', sans-serif;
+    display: flex;
+    margin-left: 25%;
+    margin-right: 10%;
+    justify-content: first baseline;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.493);
+}
+
+.coluna{
+    width: 30%;
+    text-align: left;
+}
+.inptNum{
+    width: 35px;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: solid;
+    border-color: gray;
+    text-align: center;
+}
+
+.campBtn{
+    margin-left: 25%;
+    width: 51%;
+    height: 30px;
+    border-radius: 10px; 
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    padding: 5px;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.493);
+}
+
+
+
+
+
+
+
+
+
+
+
+video{
+    width: 500px;
+    height: 500px;
+    margin-left: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+/*Configurações do Rodapé*/
+
+
+
+.icoFoot{
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+
+/*Div utilizada para caicas de texto */
+.texto{
+    margin-top: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: #f77f00;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+}
+
+#Titulo{
+    font-size: clamp(2em, 1em + 1vw, 1em);
+    padding-bottom: 10px;
+    
+}
+#textProd{
+    font-size: clamp(1.5em, 1em + 1vw, 1em);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+
