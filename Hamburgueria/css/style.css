@@ -8,7 +8,7 @@
 
 html,body{
     height: 100%;
-    background-color: #171717;
+    background-color: black;
 }
 
 p{
@@ -47,7 +47,7 @@ footer{
 /*Configurações dos Menus*/
 nav{
     text-align: center;
-    margin-left: 3%;
+    margin-left: 5.5%;
     font-family: 'DM Sans', sans-serif;
     margin-bottom: 30px;
 }
@@ -78,7 +78,7 @@ main.home{
 }
 
 .imgHome{
-    width: 65%;
+    width: 60%;
     height: auto;
 }
 
@@ -96,8 +96,8 @@ footer.home{
     align-content: space-around;
     flex-wrap: wrap;
     row-gap: 10px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .tituloCarda{
@@ -175,7 +175,7 @@ footer.home{
 
 .campBtn{
     margin-left: 25%;
-    width: 51%;
+    width: 50.5%;
     height: 30px;
     border-radius: 10px; 
     font-family: 'DM Sans', sans-serif;
@@ -186,64 +186,6 @@ footer.home{
 
 
 
-
-
-
-
-
-
-
-
-video{
-    width: 500px;
-    height: 500px;
-    margin-left: 10%;
-}
-
-
-
-
-
-
-
-
-
-
-/*Configurações do Rodapé*/
-
-
-
-.icoFoot{
-    width: 20px;
-    height: 20px;
-}
-
-
-
-
-
-/*Div utilizada para caicas de texto */
-.texto{
-    margin-top: 20px;
-    margin-left: 15%;
-    margin-right: 15%;
-    border-radius: 30px;
-    border-style: solid;
-    border-color: #f77f00;
-    text-align: center;
-    padding: 20px;
-    background-color: white;
-}
-
-#Titulo{
-    font-size: clamp(2em, 1em + 1vw, 1em);
-    padding-bottom: 10px;
-    
-}
-#textProd{
-    font-size: clamp(1.5em, 1em + 1vw, 1em);
-    font-family: 'Times New Roman', Times, serif;
-}
 
 
 
