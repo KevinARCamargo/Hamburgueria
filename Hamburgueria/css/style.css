@@ -64,14 +64,16 @@ a.menu{
     color: #f9b025;
     font-size: 22px;
     margin-right: 5%;
-    
+    transition: text-decoration 1s;
 }
 
 a.menu:hover{
     text-decoration: underline;
-    color: #f9b025;
 }
 
+a.img:hover{
+    transform: translate(0px,5px);
+}
 /*Configurações Especícas da Home*/
 main.home{
     text-align: center;
@@ -92,18 +94,18 @@ footer.home{
 
 .caixas{
     display: flex;
-    justify-content: space-around;
-    align-content: space-around;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 1%;
     row-gap: 10px;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 
 .tituloCarda{
     width: 100%;
     margin-bottom: 20px;
-    margin-left: 1%;
+    margin-left: 2%;
 }
 
 .Cardápio{
@@ -131,21 +133,32 @@ footer.home{
 }
 
 /*Configurações Específicas dos Pedidos*/
+form{
+    background-color: #f2e5d4;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 1%;
+    border-radius: 10px;
+}
 .tituloPed{
-    margin-left: 25%;
+    text-align: center;
+    font-size: 0.6rem;
 }
 
+#tPedidos{
+    color: black;
+}
 .campTxt{
-    margin-left: 25%;
-    width: 50%;
+    width: 99%;
     height: 30px;
-    border-radius: 10px; 
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
     font-family: 'DM Sans', sans-serif;
     padding: 5px;
 }
 
 .Hamburguer{
-    background-color: white;
+    background-color: #f2e5d4;
     width: 50%;
     border-radius: 10px;
     padding: 5px;
